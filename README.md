@@ -1,5 +1,6 @@
 # LogNormalSABROptionPricingHW
-This repository contains code for option pricing in the log-normal SABR model using an approximation for the joint distribution of the time-integral of a geometric Brownian motion and its terminal value from an asymptotic expansion of the Hartman-Watson integral obtained in [this paper](https://arxiv.org/abs/2001.09579).
+This repository contains code for option pricing in the log-normal SABR model using an approximation for the joint distribution of the time-integral of a geometric Brownian motion and its terminal value following from an asymptotic expansion of the Hartman-Watson integral obtained in [this paper](https://arxiv.org/abs/2001.09579).
+
 The option prices are expressed as 2-dim integrals over a function known in closed form. 
 
 Numerical illustration showing the implied volatility for several benchmark cases with maturities up to 5 years. 
